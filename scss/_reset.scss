@@ -1,0 +1,59 @@
+/* CSS Document  */
+/* Project name: PAQTech */
+/* File name: styles.css */
+/* Description: Hoja de estilos global */
+/* Creation date: Julio de 2016 */
+/* Author: Juan Bonforti */
+/* Author's eMail: Juan.Bonforti@gmail.com */
+
+/********** FONTS (Google-fonts) **********/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+//font-family: 'Montserrat'
+
+/*** FONTS (Nuevas PAQTech) *****/
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One+SC);
+//font-family: 'Bowlby One SC', cursive;
+
+@font-face {
+  font-family: 'PAQTech-Black';
+  src:  url('fonts/gotham-black.eot');
+  src:  url('fonts/gotham-black.eot') format('embedded-opentype'),
+        url('fonts/gotham-black.woff') format('woff'),
+        url('fonts/gotham-black.woff2') format('woff2'),
+        url('fonts/gotham-black.ttf') format('truetype'),
+        url('fonts/gotham-black.svg#gotham-black') format('svg');
+}
+
+@font-face {
+  font-family: 'PAQTech-light';
+  src:  url('fonts/gotham-light.eot');
+  src:  url('fonts/gotham-light.eot') format('embedded-opentype'),
+        url('fonts/gotham-light.woff') format('woff'),
+        url('fonts/gotham-light.woff2') format('woff2'),
+        url('fonts/gotham-light.ttf') format('truetype'),
+        url('fonts/gotham-light.svg#gotham-light') format('svg');
+}
+
+@font-face {
+  font-family: 'PAQTech-thin';
+  src:  url('fonts/gotham-thin.eot');
+  src:  url('fonts/gotham-thin.eot') format('embedded-opentype'),
+        url('fonts/gotham-thin.woff') format('woff'),
+        url('fonts/gotham-thin.woff2') format('woff2'),
+        url('fonts/gotham-thin.ttf') format('truetype'),
+        url('fonts/gotham-thin.svg#gotham-thin') format('svg');
+}
+
+body{
+	margin: 0;
+}
+
+figure{
+	margin: 0;
+	line-height: 0;
+}
+
+a{
+	outline: none !important;
+}
+
